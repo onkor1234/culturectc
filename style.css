@@ -205,6 +205,17 @@ footer {
     grid-template-columns: 1fr 1fr;
     place-items: center;
 }
+.google {
+    display: flex;
+    align-items: center;
+}
+.google h2{
+
+}
+
+.introindex{
+    grid-template-columns: 1fr;
+}
 .introgl{
     display: grid;
     grid-template-columns: 1fr 2fr;
