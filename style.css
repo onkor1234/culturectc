@@ -178,10 +178,12 @@ footer {
     background-color: #333; /* Set your background color */
     color: white;
     text-align: center;
+    padding: 10px 0;
 }
 
 .footer-content {
     display: flex;
+    text-align: center;
     white-space: nowrap;
     padding: 10px 0;
     animation: slide 15s linear 0s infinite normal;
@@ -190,7 +192,7 @@ footer {
 .first {
     margin-right: 50%;
 }
-
+/*
 @keyframes slide {
     0% {
         transform: translateX(100%);
@@ -199,7 +201,7 @@ footer {
         transform: translateX(-100%);
     }
 }
-
+*/
 .intro{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -209,8 +211,8 @@ footer {
     display: flex;
     align-items: center;
 }
-.google h2{
-
+.google a:hover{
+    transform: scale(1.1);
 }
 
 .introindex{
